@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(70, 70, 70);
+    padding: 20px 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.App_logo {
+    width: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App_logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (any-hover: hover){
+    .App_logo:hover{
+        animation-play-state: paused;
+    }
+}
